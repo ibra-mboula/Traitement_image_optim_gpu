@@ -22,6 +22,6 @@ Les scripts incluent un profilage de performance et affichent le temps d'exécut
 
 # Exemple de sortie console sans CUDA  :
 
-![cons ](https://github.com/ibra-mboula/Traitement_image_optim_gpu/assets/78673312/ab3553dd-02a8-4eac-9a56-5740037ed5ab)
+![cn](https://github.com/ibra-mboula/Traitement_image_optim_gpu/assets/78673312/cb5e126d-5785-4eb1-a1d7-32da266bfb89)
 
 

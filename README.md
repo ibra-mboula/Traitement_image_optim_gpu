@@ -1,4 +1,4 @@
-# Traitement d'Image Optimisé par GPU : Panorama
+# Video (7s Max) >>> Panorama
 
 ## Aperçu
 Ce projet à pour but de transformer une vidéo en panorama. Il est conçu pour travailler avec des vidéos de courte durée (7 secondes maximum) et utilise OpenCV compilé avec le support CUDA pour améliorer les performances de traitement d'image.

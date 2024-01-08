@@ -20,39 +20,8 @@ Ce projet à pour but de transformer une vidéo en panorama. Il est conçu pour 
 ## Profilage et Monitoring
 Les scripts incluent un profilage de performance et affichent le temps d'exécution ainsi que les statistiques d'utilisation GPU.
 
-# Exemple de sortie console :
+# Exemple de sortie console sans CUDA  :
 
-Temps d'exécution sans CUDA: 32.45 secondes
+![cons ](https://github.com/ibra-mboula/Traitement_image_optim_gpu/assets/78673312/ab3553dd-02a8-4eac-9a56-5740037ed5ab)
 
-Mon Jan  8 08:57:57 2024       
-+---------------------------------------------------------------------------------------+
-| NVIDIA-SMI 546.01                 Driver Version: 546.01       CUDA Version: 12.3     |
-|-----------------------------------------+----------------------+----------------------+
-| GPU  Name                     TCC/WDDM  | Bus-Id        Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
-|                                         |                      |               MIG M. |
-|=========================================+======================+======================|
-|   0  NVIDIA GeForce RTX 2070 ...  WDDM  | 00000000:01:00.0 Off |                  N/A |
-| N/A   75C    P8              11W /  80W |    741MiB /  8192MiB |      0%      Default |
-|                                         |                      |                  N/A |
-+-----------------------------------------+----------------------+----------------------+
 
-+---------------------------------------------------------------------------------------+
-| Processes:                                                                            |
-|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
-|        ID   ID                                                             Usage      |
-|=======================================================================================|
-|    0   N/A  N/A      6812    C+G   ...oogle\Chrome\Application\chrome.exe    N/A      |
-|    0   N/A  N/A      7592      C   ...brah\anaconda3\envs\cuda\python.exe    N/A      |
-|    0   N/A  N/A     10616    C+G   C:\Windows\explorer.exe                   N/A      |
-|    0   N/A  N/A     10884    C+G   ...nt.CBS_cw5n1h2txyewy\SearchHost.exe    N/A      |
-|    0   N/A  N/A     17532    C+G   ...CBS_cw5n1h2txyewy\TextInputHost.exe    N/A      |
-|    0   N/A  N/A     17828    C+G   ...ekyb3d8bbwe\PhoneExperienceHost.exe    N/A      |
-|    0   N/A  N/A     20432    C+G   ...inaries\Win64\EpicGamesLauncher.exe    N/A      |
-|    0   N/A  N/A     20664    C+G   ...ne\Binaries\Win64\EpicWebHelper.exe    N/A      |
-|    0   N/A  N/A     21580    C+G   ...ta\Local\Programs\Notion\Notion.exe    N/A      |
-|    0   N/A  N/A     22392    C+G   ...crosoft\Edge\Application\msedge.exe    N/A      |
-|    0   N/A  N/A     23400    C+G   ...5n1h2txyewy\ShellExperienceHost.exe    N/A      |
-3d8bbwe\WindowsTerminal.exe    N/A      |
-|    0   N/A  N/A     49864    C+G   ...Programs\Microsoft VS Code\Code.exe    N/A      |
-+---------------------------------------------------------------------------------------+
